@@ -4,18 +4,18 @@ public class Average{
 	public static void Main()
 	{
 		double totalNotes = 0, note, numberOfNotes = 0, average;
-		string option;
+		string noteText;
 		
 		Console.Write("Insert a mark: ");
-		option = Console.ReadLine();	
+		noteText = Console.ReadLine();	
 
-		while(option != "end")
+		while(noteText != "end")
 		{ 
-			note = Convert.ToDouble(option);
+			note = Convert.ToDouble(noteText);
 			numberOfNotes++; 
 			totalNotes += note;  
 			Console.Write("Insert a mark: ");
-			option = Console.ReadLine();
+			noteText = Console.ReadLine();
 		}
 
 		if(numberOfNotes != 0)
