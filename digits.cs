@@ -10,7 +10,7 @@ class digits
 
         while(number != "end") 
         {
-            int input = Convert.ToInt32(e);
+            int input = Convert.ToInt32(number);
             if(input != 0)
             {           
                 if(input/10 == 0)
